@@ -24,7 +24,7 @@ def index():
         response = requests.get(BASE_URL, params=params)
         data = response.json()
 
-        if str(data.get("cod")) == "200":
+        if data.get("cod") == 200 and "main" in data:
             weather_data = {
                 "city": city.title(),
                 "temperature": round(data["main"]["temp"]),
