@@ -24,3 +24,6 @@ https://weather-app-8pmz.onrender.com
 - Search any city
 - Shows temperature, humidity, wind speed
 - Clean UI
+
+
+<img width="1683" height="798" alt="image" src="https://github.com/user-attachments/assets/ce5f50fd-8226-45ab-b005-92989bd583e4" />
