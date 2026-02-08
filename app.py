@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request
 import requests
+import os
 
 app = Flask(__name__)
 
-API_KEY = "d22b1b5da494100b198e96bc857307e1"
+API_KEY = os.environ.get("API_KEY")
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 @app.route("/", methods=["GET", "POST"])
